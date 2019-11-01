@@ -58,4 +58,4 @@ Test_Train_Data_Combined <- group_by(Test_Train_Data_Combined, Subject_ID, Activ
 
 Test_Train_Data_Means <- summarize_all(Test_Train_Data_Combined, mean)               #Calculates the mean of each measurement variable, grouped by Subject ID and activity
 
-write.table(Test_Train_Data_Means, "./Test_Train_Data_Means.txt")                    #Exports table to .txt file
+write.table(Test_Train_Data_Means, "./Test_Train_Data_Means.txt", row.names = FALSE) #Exports table to .txt file
