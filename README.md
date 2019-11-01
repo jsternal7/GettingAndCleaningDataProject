@@ -5,7 +5,7 @@ Within this repo, you will find the following materials:
 
 1) A R Script entitled "run_analysis.R", which contains the code to acquire, unzip, and clean the accelerometer data for this project, before creating a second dataset that contains the average of all mean and standard deviation measurements.
 
-2) A codebook describing the variables contained within the clean dataset, along with how they were created or manipulated, if necessary.
+2) A Markdown file (CodeBook.md) describing the variables contained within the clean dataset, along with how they were created or manipulated.
 
 3) This readme Markdown file.
 
