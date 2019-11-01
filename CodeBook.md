@@ -1,4 +1,4 @@
-Code Book - Accelerometer_Data_Combined
+# Code Book - Test_Train_Data_Combined
 
 Note: For this project, one of the requirements was that all the mean and standard deviation variables for the accelerometer data were extracted for this final dataset. There was some debate regarding whether variables labeled as meanFreq() were considered means. For the purposes of this project, I have excluded meanFreq() as it is not a mean per se, but rather a weighted average of frequency components to obtain a mean frequency, and not a simple mathematical mean. Should you desire to incorporate the meanFreq() variables in replicating the dataset, this can be done by removing the grep statements in lines 24 and 39 of the associated R file ("run_analysis.R") as follows:
 
