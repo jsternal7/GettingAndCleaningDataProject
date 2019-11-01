@@ -29,6 +29,6 @@ In order to acheive the goal of building a tidy data set, the following steps ou
 
 7) The activity vectors are converted to vectors and re-classified from numbers into descriptive text.
 
-8) The Testing and Training datasets are merged together using row binding (the rbind() function), thus creating a master dataset, which was exported as "Test_Train_Data_Combined.txt"
+8) The Testing and Training datasets are merged together using row binding (the rbind() function), thus creating a master dataset named Test_Train_Data_Combined
 
-9) Finally, a tidy dataset of the means of each measurement variable in Test_Train_Data_Combined, by Subject ID and Activity, was created and exported as "Test_Train_Data_Means.txt"
+9) Finally, a tidy dataset of the means of each measurement variable in Test_Train_Data_Combined, grouped by Subject ID and Activity, was created and exported as "Test_Train_Data_Means.txt"
